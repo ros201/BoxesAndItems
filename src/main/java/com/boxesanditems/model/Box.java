@@ -1,6 +1,5 @@
 package com.boxesanditems.model;
 
-import com.boxesanditems.entities.BoxEntity;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 

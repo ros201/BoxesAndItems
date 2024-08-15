@@ -22,7 +22,7 @@ public class BoxAndItemServiceTest {
     private BoxService boxService;
     @Mock
     private ItemService itemService;
-    private ItemsSearchFilter filter = new ItemsSearchFilter();
+    private final ItemsSearchFilter filter = new ItemsSearchFilter();
     private BoxAndItemService boxAndItemService;
 
     @BeforeEach

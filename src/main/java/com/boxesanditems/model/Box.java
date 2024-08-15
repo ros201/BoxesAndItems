@@ -9,9 +9,4 @@ import lombok.Data;
 public class Box {
     private Integer id;
     private Integer containedIn;
-
-    public Box(BoxEntity boxEntity) {
-        this.id = boxEntity.getId();
-        this.containedIn = boxEntity.getContainedIn();
-    }
 }
